@@ -1,0 +1,5 @@
+<view class="item" wx:for="{{list}}" wx:for-item="item" for:key="item.id">
+  <image class="img" src="{{item.pic_url}}"></image>
+  <text class="txt">{{item.name}}</text>
+  <text class="txt" >{{item.description}}</text>
+</view>

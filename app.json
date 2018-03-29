@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/swiper/swiper",
+    "pages/icon/icon",
+    "pages/text/text",
+    "pages/meallist/meallist",
+    "pages/condition/condition",
+    "pages/refreshview/refresh",
+    "pages/multiplexitem/multitem",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#ffffff"
+  },
+  "workers": "workers"
+}

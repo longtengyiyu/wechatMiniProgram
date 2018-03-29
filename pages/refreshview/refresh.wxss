@@ -1,0 +1,19 @@
+.img{
+  border-radius: 50%;
+  height:  100rpx;
+  width: 100rpx
+}
+
+.txt{
+  display: -webkit-box;
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  height:  60rpx;
+  font-family: "微软雅黑";
+  font-size: 20rpx;
+  -webkit-line-clamp: 2;  /**文字显示的行数**/
+  overflow: hidden; /**超过限制隐藏**/
+  text-overflow: ellipsis;
+  word-break: break-all; /**规定自动换行的处理方法**/
+  -webkit-box-orient: vertical
+
+}

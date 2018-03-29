@@ -1,0 +1,12 @@
+<view class="btn-area">
+  <view class="body-view">
+  <text>{{text}}</text>
+  <button bindtap="add">add line</button>
+  <button bindtap="remove">remove line</button>
+  </view>
+</view>
+
+<navigator url="../meallist/meallist">跳转列表</navigator>
+<navigator url ="../condition/condition">跳转到条件渲染界面</navigator>
+<navigator url ="../refreshview/refresh">跳转到列表界面</navigator>
+<navigator url ="../multiplexitem/multitem">跳转多样式列表界面</navigator>

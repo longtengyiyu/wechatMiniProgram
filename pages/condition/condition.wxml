@@ -1,0 +1,14 @@
+<block wx:if="{{isShow}}">
+ <view>view1</view>
+ <view>view2</view>
+</block>
+
+<view wx:if= "{{!isShow}}">view3</view>
+
+<view wx:hidden="{{!isShow}}">view4</view>
+
+<view wx:if="{{isShow}}">{{msg}}</view>
+
+<button bindtap="clickMe">点击</button>
+
+

@@ -1,0 +1,13 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<block wx:for ="{{imgUrls}}">
+
+<swiper-item>
+<image src="{{item}}" class="slide-image" width="355" height="150"></image>
+</swiper-item>
+</block>
+</swiper>
+<button bindtap="chageIndicatorDots" >indicator-dots</button>
+<button bindtap="changeAutoplay">autoplay</button>
+<slider bindchange="intervalChange" show-value min="500" max="2000">interval</slider>
+<slider bindchange="durationChange" show-value min="1000" max="10000">duration</slider>
+<navigator url='../icon/icon'>跳转到icon界面</navigator>
