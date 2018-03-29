@@ -1,0 +1,13 @@
+<button bindtap="wxNavigateTo">保留当前页面，跳转到应用内的某个页面</button> <!--目前页面路径最多只能十层,类似navigate的open-type="navigate"-->
+
+<button bindtap="wxRedirectTo">关闭当前页面，跳转到应用内的某个页面</button> <!--类似navigate的open-type="redirect"-->
+
+<button bindtap="wxrelaunch">关闭所有页面，打开到应用内的某个页面</button> <!--类似navigate的open-type="reLaunch"-->
+
+<button bindtap="wxswitchTab">跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面</button><!--类似navigate的open-type="switchTab"-->
+
+
+<button bindtap="wxnavigateBack">关闭当前页面，返回上一页面或多级页面</button><!--类似navigate的open-type="navigateBack"-->
+
+
+<!--wx.navigateTo 和 wx.redirectTo 不允许跳转到 tabbar 页面，只能用 wx.switchTab 跳转到 tabbar 页面-->
