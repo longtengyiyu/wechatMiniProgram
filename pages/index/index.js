@@ -62,5 +62,10 @@ Page({
     wx.navigateTo({
       url: '../swiper/swiper',
     })
+  },
+  callPhone: function(){
+    wx.makePhoneCall({
+      phoneNumber: '18888888888',
+    })
   }
 })

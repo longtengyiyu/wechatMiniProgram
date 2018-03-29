@@ -8,6 +8,7 @@
     "pages/condition/condition",
     "pages/refreshview/refresh",
     "pages/multiplexitem/multitem",
+    "pages/navigate/navigate",
     "pages/logs/logs"
   ],
   "window":{

@@ -13,6 +13,8 @@
 
 <button bindtap="changeBottonText">{{defaultBtnText}}</button>
 
+<button bindtap="callPhone">拨打电话</button>
+
 <navigator url="../swiper/swiper">跳转到新页面</navigator>
 
 
@@ -24,6 +26,8 @@
     <view class="flex-item bc_red">2</view>
     <view class="flex-item bc_blue">3</view>
   </view>
+
+   <navigator url='../navigate/navigate'>跳转到导航界面</navigator>
 
 </view>
 
