@@ -77,5 +77,13 @@ Page({
         text: initData +'\n'+extraLine.join('\n')
       })
     }
+  },
+  openmap: function(){
+    wx.openLocation({
+      latitude: 31.1991858680,
+      longitude: 121.4472055580,
+      name: '徐家汇',
+      scale: 12
+    })
   }
 })

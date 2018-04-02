@@ -14,6 +14,7 @@ Page({
     
   },
 
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -26,7 +27,7 @@ Page({
    */
   onShow: function () {
     wx.setNavigationBarTitle({
-      title: '导航',
+      title: '导航'
     })
   },
 
