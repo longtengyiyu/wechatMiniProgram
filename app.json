@@ -9,6 +9,7 @@
     "pages/refreshview/refresh",
     "pages/multiplexitem/multitem",
     "pages/navigate/navigate",
+    "pages/locationinfo/location",
     "pages/logs/logs"
   ],
   "window":{

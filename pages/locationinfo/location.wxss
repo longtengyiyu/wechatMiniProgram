@@ -1,0 +1,18 @@
+ .locationCityTxt {
+  display: flex;
+  font-size: 24rpx;
+  color: #666666;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  background: #f8f8f8;
+  margin-top: 20rpx;
+  line-height: 80rpx; 
+  align-items: center;
+}
+
+.thisImg{
+  position: fixed;
+  width: 12px; 
+  height: 16px;
+  right: 30rpx
+}

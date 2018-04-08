@@ -1,0 +1,5 @@
+<view class="locationCityTxt" bindtap="clickLocationCity">
+     定位城市：
+     <view class="thisCityName">上海</view> 
+     <image bindtap="clickLocationCity" class="thisImg" src="../image/greyarrow.png"> </image>
+</view>
