@@ -11,7 +11,7 @@
 }
 
 .thisImg{
-  position: fixed;
+  position: absolute;
   width: 12px; 
   height: 16px;
   right: 30rpx
